@@ -1,0 +1,31 @@
+.header-button {
+  display: inline-flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid var(--black);
+  background: var(--main-color);
+  color: var(--Black, #21201d);
+  font-family: "Cabinet Grotesk";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.beer-section-button {
+  display: inline-flex;
+  padding: 21px 38px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px;
+  border: 1px solid var(--black);
+  background: var(--main-color);
+
+  color: var(--black);
+  font-family: "CabinetGroteskBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

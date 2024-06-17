@@ -6,3 +6,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+.slogan {
+  color: var(--black, #21201d);
+  text-align: center;
+  font-family: CabinetGroteskMedium;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 105.231%;
+  letter-spacing: -0.8px;
+}
