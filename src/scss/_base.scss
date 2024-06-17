@@ -48,6 +48,10 @@ video {
 // base rules
 // ==================================== */
 
+html {
+  scroll-behavior: smooth;
+}
+
 h2 {
   font-family: CabinetGroteskExtrabold;
   color: var(--black);
