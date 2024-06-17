@@ -3,6 +3,11 @@
 // ==================================== */
 
 :root {
+  --main-color: #f2e4c1;
+  --black: #21201d;
+  --ipa-green: #cede8b;
+  --dark-red: #d66750;
+  --blond-yellow: #f3d18c;
 }
 
 /* ====================================
@@ -42,3 +47,19 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+h2 {
+  font-family: CabinetGroteskExtrabold;
+  color: var(--black);
+  font-size: 70px;
+  line-height: 83.774%;
+  letter-spacing: 10.5px;
+}
+
+p {
+  font-family: "massilia", sans-serif;
+  color: var(--Black, #21201d);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+}
