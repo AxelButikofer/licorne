@@ -9,3 +9,25 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+.l-section-blond {
+  background: var(--blond-yellow);
+}
+
+.l-section-dark {
+  background: var(--dark-red);
+}
+
+.l-section-ipa {
+  background: var(--ipa-green);
+}
+
+.l-section-mission {
+  background: var(--black);
+  color: var(--main-color);
+}
+
+.l-section-about {
+  background: var(--black);
+  color: var(--main-color);
+}

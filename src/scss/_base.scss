@@ -52,6 +52,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: var(--main-color);
+}
+
 h2 {
   font-family: CabinetGroteskExtrabold;
   color: var(--black);
