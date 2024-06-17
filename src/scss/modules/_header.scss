@@ -1,0 +1,8 @@
+.navigation-bar {
+  position: sticky;
+  top: 0;
+  background: var(--main-color);
+  border-bottom: 1px solid var(--black);
+  display: flex;
+  justify-content: space-between;
+}
