@@ -1,0 +1,41 @@
+.burger {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  width: 30px;
+  height: 19px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: var(--main-color);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+}
+
+.menu.is-active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul a {
+  color: var(--black);
+
+  font-family: "CabinetGroteskMedium";
+  font-size: 75px;
+}
