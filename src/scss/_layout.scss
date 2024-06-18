@@ -22,10 +22,13 @@
 
 .l-section-ipa {
   background: var(--ipa-green);
+  z-index: 1;
 }
 
 .l-desktop-bottle {
   margin-left: 150px;
+  position: relative;
+  z-index: 3;
 }
 
 .l-section-mission {
@@ -65,4 +68,26 @@
 
 .l-map {
   margin-top: 70px;
+}
+
+.l-bottles-background {
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  mix-blend-mode: difference;
+}
+
+.l-hops-background {
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+  mix-blend-mode: difference;
+}
+
+.l-wheat-background {
+  position: absolute;
+  mix-blend-mode: difference;
+  z-index: -1;
+  width: 75%;
+  left: 10px;
 }

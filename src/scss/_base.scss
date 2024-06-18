@@ -67,6 +67,15 @@ h2 {
   margin-top: 70px;
 }
 
+h3 {
+  color: var(--black);
+  font-family: "CabinetGrotesk-Extrabold";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 p {
   font-family: "massilia", sans-serif;
   color: var(--Black, #21201d);
@@ -77,4 +86,29 @@ p {
 
 a {
   text-decoration: none;
+}
+
+footer a {
+  color: var(--black);
+  font-family: Massilia;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer {
+  border-top: 1px solid var(--black);
+  margin-top: 250px;
+  padding: 70px 70px 30px 70px;
+  z-index: 4;
+}
+
+footer img {
+  width: 300%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer p {
+  color: var(--black);
+  line-height: normal;
 }
