@@ -24,12 +24,45 @@
   background: var(--ipa-green);
 }
 
+.l-desktop-bottle {
+  margin-left: 150px;
+}
+
 .l-section-mission {
   background: var(--black);
+  margin: 160px 100px;
+  text-align: center;
+}
+
+.l-section-mission p {
+  padding-bottom: 150px;
+}
+
+.l-section-mission h2 {
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+.l-section-mission-content {
   color: var(--main-color);
 }
 
 .l-section-about {
   background: var(--black);
+  margin-bottom: 50px;
+}
+
+.l-section-about-content {
+  margin-top: 60px;
+  margin-bottom: 90px;
+  padding-right: 120px;
   color: var(--main-color);
+}
+
+.l-section-about-title {
+  color: var(--main-color);
+}
+
+.l-map {
+  margin-top: 70px;
 }
