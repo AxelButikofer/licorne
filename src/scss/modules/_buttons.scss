@@ -1,5 +1,5 @@
 .header-button {
-  display: inline-flex;
+  display: flex;
   padding: 20px 40px;
   justify-content: center;
   align-items: center;
@@ -10,8 +10,7 @@
   font-family: "Cabinet Grotesk";
   font-size: 20px;
   font-weight: 700;
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin: 50px;
 }
 
 .beer-section-button {

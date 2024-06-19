@@ -1,0 +1,18 @@
+ul a:hover {
+  text-decoration: underline;
+  background: var(--black);
+  color: var(--main-color);
+  transition: 0.1s;
+}
+
+.header-button:hover {
+  background: var(--black);
+  color: var(--main-color);
+  transition: 0.1s;
+}
+
+.beer-section-button:hover {
+  background: var(--black);
+  color: var(--main-color);
+  transition: 0.1s;
+}
