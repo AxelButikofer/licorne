@@ -16,3 +16,7 @@ ul a:hover {
   color: var(--main-color);
   transition: 0.1s;
 }
+
+footer a:hover {
+  text-decoration: underline;
+}
