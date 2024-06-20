@@ -112,3 +112,10 @@ footer p {
   color: var(--black);
   line-height: normal;
 }
+
+hr {
+  width: 296px;
+  height: 1px;
+  border: var(--black) solid 1px;
+  margin: 10px 0;
+}
